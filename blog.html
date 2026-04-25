@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Vihangi Minsadee</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Ambient blobs -->
+  <div class="blob-wrap" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+  </div>
+
+  <!-- ─── NAVBAR ─── -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">Vihangi<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── PAGE WRAPPER ─── -->
+  <div class="page-wrapper">
+
+    <!-- ═══ BLOG HERO ═══ -->
+    <section class="blog-hero">
+      <div class="container">
+        <div class="fade-up">
+          <span class="badge">
+            <!-- <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/>
+            </svg>-->
+            𓂃🖋 &nbsp;
+            Published on Medium
+          </span>
+        </div>
+        <h1 class="blog-hero-title fade-up delay-1">My Blog</h1>
+        <p class="blog-hero-desc fade-up delay-2">
+          Thoughts on technology, management, and my journey as an undergraduate.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══ BLOG POSTS ═══ -->
+    <section class="blog-section">
+      <div class="container">
+        <div class="blog-grid">
+
+          <!-- Card 1 -->
+          <article class="blog-card fade-up delay-1" data-href="https://medium.com/@wavihangiminsadi/css-flexbox-build-any-layout-without-the-frustration-3b8c61d07653">
+            <div class="blog-card-img">
+              <img src="flexbox_cover_image.svg" alt="CSS Flexbox: Build Any Layout Without the Frustration" class="blog-card-photo" />
+              <div class="blog-card-ext">
+                <!--<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>-->
+                ≫
+              </div>
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-tags">
+                <span class="blog-tag">CSS</span>
+                <span class="blog-tag">Flexbox</span>
+              </div>
+              <h2 class="blog-card-title">CSS Flexbox: Build Any Layout Without the Frustration</h2>
+              <p class="blog-card-excerpt">The Problem Flexbox Solved
+Before Flexbox, centering a div vertically was embarrassingly difficult. Developers used negative margins, </p>
+              <div class="blog-card-meta">
+                <span class="meta-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                    <line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+                  </svg>
+                  Mar 22, 2026
+                </span>
+                <span class="meta-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polyline points="12 6 12 12 16 14"/>
+                  </svg>
+                  5 min read
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="blog-card fade-up delay-2" data-href="https://medium.com/@wavihangiminsadi/css-animations-bringing-your-website-to-life-with-pure-code-0d4149e04ab5">
+            <div class="blog-card-img">
+              <img src="css_animations_cover.jpg" alt="CSS Animations: Bringing Your Website to Life with Pure Code" class="blog-card-photo" />
+              <div class="blog-card-ext">
+                <!--<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>-->
+                ≫
+              </div>
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-tags">
+                <span class="blog-tag">CSS</span>
+                <span class="blog-tag">Animations</span>
+              </div>
+              <h2 class="blog-card-title">CSS Animations: Bringing Your Website to Life with Pure Code</h2>
+              <p class="blog-card-excerpt">Why Animation Matters
+                 A static website is like a billboard. An animated website is like a conversation. Motion draws attention, guides users, and makes interactions feel natural and satisfying..</p>
+              <div class="blog-card-meta">
+                <span class="meta-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                    <line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+                  </svg>
+                  Mar 22, 2026
+                </span>
+                <span class="meta-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polyline points="12 6 12 12 16 14"/>
+                  </svg>
+                  4 min read
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="blog-card fade-up delay-3" data-href="https://medium.com">
+            <div class="blog-card-img">
+              <img src="download (5).jpg" alt="Effective Project Management for Tech Teams" class="blog-card-photo" />
+              <div class="blog-card-ext">
+                <!-- <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+                </svg> -->
+                ≫
+              </div>
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-tags">
+                <span class="blog-tag">Project Management</span>
+                <span class="blog-tag">Teams</span>
+              </div>
+              <h2 class="blog-card-title">Effective Project Management for Tech Teams</h2>
+              <p class="blog-card-excerpt">Key principles and tools that help tech teams deliver projects on time while maintaining quality and team morale throughout the development process.</p>
+              <div class="blog-card-meta">
+                <span class="meta-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                    <line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+                  </svg>
+                  Mar 10, 2026
+                </span>
+                <span class="meta-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polyline points="12 6 12 12 16 14"/>
+                  </svg>
+                  6 min read
+                </span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- CTA -->
+        <div class="blog-cta fade-up">
+          <a href="https://medium.com/@wavihangiminsadi" target="_blank" class="blog-cta-link">
+            View all posts on Medium &nbsp;→</a>
+            <!-- <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>-->
+        </div>    
+
+      </div>
+    </section>
+
+    <!-- ─── FOOTER ─── -->
+    <footer>
+      <div class="container">
+        <span class="footer-logo">Vihangi Minsadee<span style="color:var(--pink);">.</span></span>
+        <span class="footer-copy">
+          Made with <span class="heart">♥</span> © 2026
+        </span>
+      </div>
+    </footer>
+
+  </div><!-- /page-wrapper -->
+
+  <script src="script.js"></script>
+</body>
+</html>
