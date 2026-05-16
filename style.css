@@ -36,10 +36,10 @@ html { scroll-behavior: smooth; }
 
 body {
   font-family: var(--font-body);
-  background: var(--pink-soft);
+  background: var(--pink-pale);
   color: var(--text-dark);
   line-height: 1.65;
-  font-size: 17px;
+  font-size: 19px;
   -webkit-font-smoothing: antialiased;
 }
 
